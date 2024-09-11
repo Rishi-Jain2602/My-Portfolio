@@ -1,0 +1,102 @@
+
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rishi Jain-Portfolio</title>
+	<link href="{% static '/css/main.css'  %}" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	
+</head>
+
+<body>
+	<br>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="card card-body h-100  border-info" id="profile-wrapper">
+					<img id="profile-pic" src="{% static 'images\Rishi_full.jpeg' %}" >
+					<hr>
+					<h4>Hi I'm Rishi Jain!</h4>
+					<p>I love coding and have a keen interest in Machine Learning (ML) and Artificial Intelligence (AI).
+                    </p>
+				</div>
+			</div>
+
+			<div class="col-md-9">
+				<div class="card card-body h-100  border-info">
+					<h4>My First Internship as a Machine Learning Engineer</h4>
+					<hr>
+					<p>
+                        Integrated OpenAI’s LLM Model GPT-3.5-turbo with LangChain and Interakt’s chatbot
+                        using webhooks and API endpoints for real-time messaging, managed with multi-threading.
+                    </p>
+                    <p>
+                        Developed a real-time question recommender using Gemini 1.5 Pro and PostgreSQL, 
+                        analyzing student performance for adaptive question suggestions.
+                    </p>
+                    <p>
+                        Created an AI-based question evaluator using Gemini 1.5 Pro to grade, fix, and explain
+                        questions, improving clarity and correctness.
+                    </p>
+					<ul class="social-links">
+						<li>
+                            <a href="https://www.linkedin.com/in/rishi-jain-5a79b7223/" target="_blank">
+                                <img class="social" src="{% static 'images/linkedin.png' %}" alt="LinkedIn">
+                            </a>
+                        </li>
+						<li><img class="social" src="{% static 'images/twitter.png' %}"></li>
+						<li><img class="social" src="{% static 'images/youtube.png' %}"></li>
+					</ul>
+
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>My Experience as a Developer</h5>
+					<hr>
+					<p>Machine Learning Intern at NEETPrep</p>
+					<p>Made 3 LLM application with the help of LangChain. Used LLM models and deployed them on cloud function</p>
+					</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>What I Know</h5>
+					<hr>
+					<p>Machine Learning, Deep Learning, NLP, Python, Django, LangChain, HTML/CSS, JavaScript, MySQL, AWS EC2, GCP and Flask </p>
+					<p>PS: Working on Node JS</p>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>How I Learn</h5>
+					<hr>
+					<p>Reverse Engineer & Build Ugly Prototypes First.</p>
+
+					<p>I can learn just about anything by having a final product to tear apart piece by piece. I break the code where I need to figure out why things work the way they do. Documentation is just a reference.</p>
+				</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>My Short Term Goals</h5>
+				<hr>
+				<p>After almost two years of supporting my system at the lab I’m ready to learn something new. I'll collaborating and sharing my experience with others on my blog (SayHelloWorld.co) & youtube channel.</p>
+				<p>Aside from building small projects I would love to enter a position where I can be part of a bigger team & learn from others with more experience than myself.</p>
+
+				</div>
+			</div>
+		</div>
+		<br>
+	</div>
+
+</body>
+</html>
