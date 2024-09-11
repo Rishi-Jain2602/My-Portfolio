@@ -15,10 +15,12 @@ body{
 }
 
 ul{
-	padding: 0;
+	padding: 0px;
     list-style-type: none;
 }
-
+li{
+	padding-right: 10px;
+}
 
 .social-links ul, li{
 	list-style-type:none;
